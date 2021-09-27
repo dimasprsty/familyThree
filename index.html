@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Sweetwedding - Responsive OnePage HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style-2.css">   
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    	/*---------------------------
+		    Invitation Popup
+		----------------------------*/
+		.invitation-section .invitation-box {
+		    max-width: 80%;
+		}
+
+		.invitation-section .invitation-box h2 {
+		    text-align: center;
+		}
+
+		.invitation-section .invitation-box p, ol, ul {
+		    font-size: 1rem;
+		    font-weight: 300;
+		    text-transform: inherit;
+		    text-align: justify;
+		    line-height: 1.8em;
+		}
+
+		.invitation-section.section-padding.popup {
+		    width: 100%;
+		    height: 100%;
+		    background-color: #f1f0ef;
+		    position: fixed;
+		    z-index: 99998;
+		    /*overflow: scroll;        */
+		    overflow-x: hidden;
+		}
+		.invitation-section a.link{
+		    color: #b2c9d3;
+		    letter-spacing: 1px;
+		    display: inherit;
+		    margin-top: 34px;
+		}
+
+		
+    </style>
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+	<div id="preloader">
+		<div class="preloader pulse">
+			<h3>Putri & Dimas</h3>
+		</div>
+	</div>
+	<!-- END LOADER -->
+	
+
+	<audio id="audio-backsound" src="music/Ify Alyssa - Dua Insan (feat. Adhitia Sofyan).mp3" preload="auto" loop=""></audio>
+	<section id="inv-popup" class="invitation-section section-padding popup">
+		<div calss="container">
+			<div class="row">
+				<div class="col col-xs-12">
+					<div class="invitation-box">
+						<div left-vec></div>
+						<div rigth-vec></div>
+							<div class="inner">
+								<p style="text-align: center;"> Official Wedding Website </p>
+								<h2>Putri & Dimas</h2>
+								<p style="text-indent: 25px;">Sehubungan dengan adanya pandemi Covid-19, kami akan menyelenggarakan acara pernikahan dengan mengundang saudara dan kerabat terdekat saja. Tanpa mengurangi rasa hormat & demi kenyamanan bersama, diharapkan kepada seluruh tamu undangan untuk mengikuti protokol kesehatan yang berlaku, diantaranya adalah:</p>
+								<ul style="margin-top: -1rem;">
+									<strong>
+										<li>1. Memakai masker</li>
+										<li>2. Mematuhi protokol kesehatan dan menjaga jarak</li>
+										<li>3. Jika sedang merasa sakit, dimohon untuk tetap beristirahat di rumah</li>
+										<li>4. Tidak melakukan kontak fisik dengan mempelai & tamu undangan lain</li>
+									</strong>
+								</ul>
+								<p style="text-indent: 25px;">Semoga pandemi Covid-19 segera berakhir dan kita semmua selalu diberikan kesehatan. Terima Kasih.</p>
+								<a href="#" class="theme-btn" id="openinv">Open Invitation</a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	
+	<!-- Start header -->
+	<header class="top-header mb-5">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="images/LogoNew.png" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#story">Story</a></li>
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+						<li><a class="nav-link" href="#wedding">Wedding</a></li>
+						<li><a class="nav-link" href="#location">Location</a></li>
+						<li><a class="nav-link" href="#contact">Guest Book</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start video -->
+	<!--<div class="container" style="margin-top: 60px;">
+		<video loop="true" autoplay="autoplay" controls muted class="col"> 
+			<source src="video/Romantic Animated Love Story.mp4" type="video/mp4">
+			<source src="video/Romantic Animated Love Story.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+	</div>-->
+	<!-- End video -->
+
+	<!-- Start Audio -->
+	<!-- <audio controls>
+		<source src="music/Ify Alyssa - Dua Insan (feat. Adhitia Sofyan).mp3" type="audio/mpeg">
+	</audio> -->
+	
+	<!-- End Audio -->
+
+
+
+	<!-- Start Banner -->
+	<div class="home-slider mt-3">
+		<div class="carousel-inner" role="listbox">
+			<ul class="rslides">
+				<li><img src="images/Slider1.jpg" alt=""></li>
+				<li><img src="images/Slider2.jpg" alt=""></li>
+				<li><img src="images/Slider3.jpg" alt=""></li>
+				<li><img src="images/Slider4.jpg" alt=""></li>
+				<li><img src="images/Slider5.jpg" alt=""></li>
+			</ul>
+		</div>
+		
+		<div class="lbox-details">
+			<h1>Putri & Dimas</h1>
+			<h1>We're getting married</h1>
+			<div class="countdown main-time clearfix">
+				<div id="timer">
+					<h3>21 May 2021</h3>
+					<div id="days"></div>
+					<div id="hours"></div>
+					<div id="minutes"></div>
+					<div id="seconds"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="title-box">
+							<h2>Putri Mandasari, SKM <span> &</span> Dimas Prasetya S.Kom </h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="images/aboutPutri.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Putri Mandasari, SKM</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								<p><h2><b>Putri pertama dari</b><br><b>Bapak Daryoto & Ibu Demes</b></br></h2></p>
+							</div>
+						</div>
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-4 col-md-6 col-sm-12">
+								<div class="about-m">
+									<div class="about-img">
+										<img class="img-fluid" src="images/aboutDimas.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-6 col-sm-12">
+								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Dimas Prasetya S.Kom</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
+								<p><h2><b>Putra pertama dari</b><br><b>Bapak Sukemi & Ibu Suharni</b></br></h2></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	
+	<!-- Start Story -->
+	<div id="story" class="story-box main-timeline-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Our Story</h2>
+					</div>
+				</div>
+			</div>
+			
+			<div class="timeLine">
+				<div class="row">
+					<div class="lineHeader hidden-sm hidden-xs"></div>
+					<div class="lineFooter hidden-sm hidden-xs"></div>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item" >
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">30</span>
+									<span>May </span>
+									<span>2019</span>
+								</div>
+								<div class="image">
+									<img src="images/time1.jpg" alt="" />
+									<div class="title">
+										<h2>First Meet <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Berawal dari Dimas yang meminta rekan kerjanya untuk di kenalkan dengan Putri yang kebetulan adalah sahabat rekan kerjanya. Kemudian Dimas memberanikan diri untuk berkenalan melalui Whatsapp. setelah beberapa bulan saling bertukar informasi akhirnya kami memutuskan untuk bertemu.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">17</span>
+									<span>Aug</span>
+									<span>2019</span>
+								</div>
+								<div class="image">
+									<img src="images/time02.jpg" alt="" />
+									<div class="title">
+										<h2>First date <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Setelah resmi memulai hubungan asmara Dimas mengajak Putri untuk kencan pertama mereka secara resmi.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">16</span>
+									<span>Aug</span>
+									<span>2020</span>
+								</div>
+								<div class="image">
+									<img src="images/time03.jpg" alt="" />
+									<div class="title">
+										<h2>Proposal <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Pada bulan Agustus 2020 setelah 1 tahun lebih berpacaran Dimas menyatakan kepada Putri untuk melanjutkan ke jenjang yang lebih serius.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">27</span>
+									<span>Dec</span>
+									<span>2020</span>
+								</div>
+								<div class="image">
+									<img src="images/time4.jpg" alt="" />
+									<div class="title">
+										<h2>Engagement <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Menjelang penutupan akhir tahun 2020. Kami menutupnya dengan melangsungkan pertunangan di rumah Putri yang berada di Madiun Jawa Timur dengan lancar.</p>
+								</div>
+							</div>
+						</div>
+						<!--<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">21</span>
+									<span>May</span>
+									<span>2021</span>
+								</div>
+								<div class="image">
+									<img src="images/time-05.jpg" alt="" />
+									<div class="title">
+										<h2>Our Wedding <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+									</div>
+								</div>
+								<div class="textContent">
+									<p class="lead">Since then i came to Austria as refugee far from my lovers and friends far a way escaping from wars and threats searching a new life that i didn't find until yet.</p>
+								</div>
+							</div>
+						</div>-->
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- End Story -->	
+	
+	<!-- Start Gallery -->
+	<div id="gallery" class="gallery-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Gallery</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="popup-gallery clearfix">
+					<li>
+						<a href="images/gallery01.jpg">
+							<img class="img-fluid" src="images/gallery01.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery02.jpg">
+							<img class="img-fluid" src="images/gallery02.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery03.jpg">
+							<img class="img-fluid" src="images/gallery03.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery04.jpg">
+							<img class="img-fluid" src="images/gallery04.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery05.jpg">
+							<img class="img-fluid" src="images/gallery05.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery06.jpg">
+							<img class="img-fluid" src="images/gallery06.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery07.jpg">
+							<img class="img-fluid" src="images/gallery07.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="images/gallery08.jpg">
+							<img class="img-fluid" src="images/gallery08.jpg" alt="single image">
+							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+	
+	<!-- Start Wedding -->
+	<div id="wedding" class="wedding-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Wedding</h2>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-wedding"></i></div>
+                        <h3 class="title">Akad </h3>
+						<h4>21 May 2021 at 9:00 am</h4>
+                        <p class="description">
+                            Akad akan di langsungkan di kediaman mempelai wanita, dan di laksanakan sesuai dengan protokol kesehatan yang di anjurkan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="serviceBox">
+                        <div class="service-icon"><i class="flaticon-reception-bell"></i></div>
+                        <h3 class="title">Reception Ceremony </h3>
+						<h4>21 May 2021 at 13:00 pm - End </h4>
+                        <p class="description">
+							Resepsi akan di senggelarakan di kediaman mempelai wanita, dan di adakan sesuai dengan protokol kesehatan yang di anjurkan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+			
+		</div>
+	</div>
+	<!-- End Wedding -->
+
+	
+	<!-- Start Location -->
+	<div id="location" class="contact-box"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="title-box">
+						<h2>Location</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<iframe frameborder="0" scrolling="no" height="400" width="100%" src="https://maps.google.com/maps?q=-7.555590,111.520033&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" aria-label="-7.555590,111.520033"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Location -->
+
+	<!-- Start Guest Book -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Guest Book</h2>
+						<p><h3>Please write your wishes or prayer to the grooms and maid. </h3></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-xs-12">
+				  <div class="contact-block">
+					<form id="contactForm">
+					  <div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+								<div class="help-block with-errors"></div>
+							</div>                                 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" placeholder="From* (e.g. schoolmate, sibling, Friend, co-workers, etc)" id="from" name="from" class="form-control" required data-error="Please enter your content">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						
+						<div class="col-md-12">
+							<div class="form-group"> 
+								<textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="submit-button text-center">
+								<button class="btn btn-common" id="submit" type="submit">Send Whises</button>
+								<div id="msgSubmit" class="h3 text-center hidden"></div> 
+								<div class="clearfix"></div> 
+							</div>
+						</div>
+					  </div>            
+					</form>
+				  </div>
+
+					<!--Show Data Guest Book-->
+					<!-- <script type="text/javascript" src="ajax.js"></script> -->
+					<!--<div>
+					<button onclick="LoadData(); return false;">Load Data</button>
+					</div>-->
+					<div id="content" style="border:1px solid black; width:95%; margin:0 auto;">
+					</div>
+					<!--End Show Data Guest Book-->
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Guest Book -->
+
+	<!-- Thanks note -->
+	<div id="wedding" class="wedding-box">
+				<div class="wedding-box-img">
+					<div class="img">
+						<img src="images/Thanks.jpg" alt=""/>
+					</div>
+				</div>
+					<h1>Thank you</h1>
+	</div>
+	<!-- Thanks note -->
+
+	<!-- Start Footer -->
+	<footer class="footer-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+						<p class="footer-company-name">
+							All Rights Reserved. &copy; 2018  <a href="#">Sweetwedding</a>
+						</p>
+						<p class="footer-company-name">
+							Design By : <a href="https://html.design/">html design</a>
+						</p>
+						<p class="footer-company-name">
+							Edited Design By : <a>Dimas Prasetya, S.Kom</a>
+						</p>
+						<p class="footer-company-name">
+							Song By : <a>Ify Alyssa - Dua Insan ft. Adhitia Sofyan</a> 
+						</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script> 
+	<script src="js/slider-index.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+    <script src="js/timeLine.min.js"></script>	
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+			LoadData();
+
+			$("#openinv").click(function() {
+				// alert('tes');
+				$("#inv-popup").fadeOut(500);
+				// $("main").show();
+			});
+
+			var audio = document.getElementById('audio-backsound');
+			function play() {
+				audio.play(); 
+				$(".backsound").css("display","block")
+				$(".backsound-mute").css("display","none");
+			}
+			function pause() {
+				audio.pause();
+				$(".backsound").css("display","none")
+				$(".backsound-mute").css("display","block");
+			}
+
+			$("#openinv").on("click", function() {
+				play();
+			})
+
+			$(".backsound").on("click", function() {
+				pause();
+			})
+
+			$(".backsound-mute").on("click", function() {
+				play();
+			})
+		});
+    </script>
+</body>
+</html>
